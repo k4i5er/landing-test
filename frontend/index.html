@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/main.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <nav><a href="https://github.com/k4i5er/landing-test" target="_blank">Ver repo</a></nav>
+    </header>
+    <section id="body">
+      <article id="writing">
+        <h1>La posibilidad de llevar a tu empresa más lejos está a un click de distancia</h1>
+      </article>
+      <article id="central">
+        <div id="form">
+          <p id="text-cta">Un asesor está listo para contactarte, solo registra tus datos</p>
+          <input required autofocus title="Escribe tu nombre completo" class="input-form" id="name" type="text" name="name" placeholder="Nombre completo" />
+          <input required title="Escribe un teléfono válido a 10 dígitos" class="input-form" id="phone" type="tel" pattern="[0-9]{10}" name="phone" placeholder="Teléfono" />
+          <input required title="Escribe una dirección de correo válida" class="input-form" id="email" type="email" name="email" placeholder="Correo electrónico" />
+          <input id="tos" type="checkbox" name="tos" value="tos" />
+          <label for="tos">Acepto los Términos, Condiciones y Avisos de Privacidad</label>
+          <input class="input-form" type="submit" value="solicítalo ya" id="submit" name="submit" onclick="sendData()" />
+        </div>
+        <div id="img">
+          <img src="assets/img/cover.png" alt="Cover" />
+        </div>
+      </article>
+    </section>
+    <section id="steps">
+      <div id="step-wrapper">
+        <h2>Pasos a seguir</h2>
+        <p id="text-lsng">
+          Conseguir tu leasing con nosotros es muy fácil, solo tienes que seguir tres sencillos
+          pasos y en muy poco tiempo estarás disfrutando del bien solicitado.
+        </p>
+        <div id="instructions">
+          <div class="instruction-box">
+            <p class="numbers">1</p>
+            <h3>Completa tu solicitud en línea</h3>
+            <p class="text-steps">
+              Realiza tu solicitud y obtén una autorización en línea en tan solo 5 minutos.
+            </p>
+          </div>
+          <div class="instruction-box">
+            <p class="numbers">2</p>
+            <h3>Completa tu expediente</h3>
+            <p class="text-steps">
+              Nuestros agentes especializados evaluarán tu solicitud y a la brevedad recibirás
+              una llamada para corroborar los datos.
+            </p>
+          </div>
+          <div class="instruction-box">
+            <p class="numbers">3</p>
+            <h3>Firma tu contrato</h3>
+            <p class="text-steps">
+              Una vez comprobadas las credenciales y validada la solicitud, firmaremos el contrato.
+            </p>
+          </div>
+          <div class="instruction-box">
+            <p class="numbers">4</p>
+            <h3>Recibe el dinero para tu negocio</h3>
+            <p class="text-steps">
+              Depositaremos el dinero a la cuenta bancaria de tu negocio.
+            </p>
+          </div>
+        </div>
+        <input class="button" type="button" value="¡comienza tu trámite!" name="start-button" />
+      </div>
+    </section>
+    <footer>
+      <p>Consulta nuestro <a href="#">Aviso de privacidad</a></p>
+      <img src="./assets/img/logo-buro-01.png" alt="Buró de crédito">
+      <img src="./assets/img/logo-condusef-01.png" alt="CONDUSEF">
+
+    </footer>
+  </div>
+</body>
+</html>
