@@ -6,6 +6,6 @@ El endpoint es un script llamado processForm.php, el cual usa la librería PHPMa
 
 Del lado del front-end, se usa fetch para realizar la llamada asíncrona al servidor, esperando un código de status para ser evaluado y mostrar un feedback al usuario.
 
-Existen detalles al parecer por el CORS del lado del servidor, lo cual propicia que en ciertas ocasiones no se realice el envío de la información desde un dispositivo móvil.
+Existen detalles al parecer por el CORS del lado del servidor, lo cual propicia que en ciertas ocasiones no se realice el envío de la información desde un dispositivo móvil, por cuestiones de tiempo, no se pudo revisar a profundidad.
 
  En futuras versiones, se implementaría la validación de los campos y la corrección del problema de CORS.
